@@ -1,0 +1,213 @@
+body {
+    box-sizing: border-box;
+    width: 1280px;
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    width: 500px;
+    align-items: center;
+    font-size: 18px;
+}
+.span__Black-sea {
+    font-family: 'Cherry Swash', cursive; 
+}
+a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logonavblock {
+    margin: 0 auto;
+    height: 88px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;  
+    font-size: 40px; 
+}
+hr {
+    width: 18px;
+    transform: rotate(115deg);
+}
+.navsection {
+    width: 1280px;
+    height: 88px;
+    background-color: #486C6F;   
+}
+.menu {
+    width: 1280px;
+    height: 550px;
+    background-image: url(../img/sea.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: column;
+    color: #ffffff;
+}
+.menu-size {
+    width: 1280px;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    background-color: transparent;
+    color: #ffffff;
+    width: 234px;
+    height: 47px;
+    font-size: 30px;
+    border: 3px solid;
+    border-radius: 7px;
+}
+.slider {   
+    display: inline-flex;
+    width: 120px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;    
+}
+.round {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.round-gray {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: grey  
+}
+h1 {
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+h3 {  
+    font-size: 30px;
+}
+.aboutsection {
+    width: 100%;
+    height: 500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutsectionsize {
+    text-align: center;
+    width: 1000px; 
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;   
+}
+.about {
+    font-size: 14px;
+}
+.dhavan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 500px;
+    background-color: #16905E;
+    color: #ffffff;
+}
+.lorem {
+    font-size: 18px;
+}
+.aboutmen {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.dhavansize {  
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.icondhavan {   
+    display: flex;
+    width: 300px;
+    height: 139px;
+    justify-content: space-around;
+}
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/map.png);
+}
+.form-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 431px;
+    height: 431px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: .7;   
+}
+.block__form-round {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;    
+}
+.input1 {
+    width: 276px;
+    height: 32px;
+    margin: 20px;
+}
+.input2 {
+    width: 276px;
+    height: 32px;
+    margin: 20px;
+}
+.input3 {
+    width: 276px;
+    height: 81px;
+    margin: 20px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 290px;
+    height: 290px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 50px;
+    background-color:#16905E;
+    color: #ffffff;
+}
+span {
+    text-transform: uppercase;
+}
